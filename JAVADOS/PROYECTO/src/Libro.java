@@ -1,10 +1,10 @@
 public class Libro {
    public String titulo;
-    int paginas;
-
+   int paginas;
+   String autor;
   public void mostrarDatos(){
     
-   System.out.println("El libro se llama:  "+ titulo + " y tiene:  "+ paginas + " paginas");
+   System.out.println("El libro se llama:  "+ titulo +"Autor: "+autor+ " y tiene:  "+ paginas + " paginas");
     }
    
   

@@ -14,6 +14,9 @@ public void cargarLibros(Arreglo arr) {
     System.out.println("Ingrese el titulo del libro: ");
     nuevoLibro.titulo = sc.nextLine();
 
+    System.out.println("Ingrese el nombre del Autor: ");
+    nuevoLibro.autor = sc.nextLine();
+
     System.out.println("Ingrese la cantidad de paginas: ");
     nuevoLibro.paginas = sc.nextInt();
     sc.nextLine(); // Limpiar el buffer de entrada
